@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:background="@drawable/todo_item_bg">
+
+    <CheckBox
+        android:id="@+id/checkTodo"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:buttonTint="@color/checkbox"
+        android:layout_gravity="center_vertical"
+        android:background="@null" />
+
+    <EditText
+        android:id="@+id/editTodo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="할 일 입력"
+        android:background="@android:color/transparent"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:backgroundTint="#FF4444"
+        android:text="−"
+        android:textColor="#FFFFFF"/>
+</LinearLayout>
+

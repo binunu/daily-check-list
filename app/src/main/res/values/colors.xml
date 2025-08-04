@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="taskPlus">#7C7C7C</color>
+
+    <color name="first">#FFD700</color>
+    <color name="second">#C0C0C0</color>
+    <color name="third">#B87333</color>
+    <color name="checkbox">#ADADAD</color>
+
+
+
+
 </resources>
